@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Transporte carosio</title>
+<link rel="stylesheet" href="carosio.css">
+<script src="script.js" defer></script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+<body>
+
+    <header>
+        <div class="imagen">
+            <a href="#top"><img src="fotos/Carosiologo.png"></a>
+        </div>
+
+
+        <div class="items">
+            <ul>
+                <li><a href="#top">Inicio</a></li>
+                <li><a href="#servicios"> Servicios</a></li>
+                <li><a href="Contacto.html" class="button">Contacto</a></li>
+                <li><a href="#nuestra_empresa">Nuestra empresa</a></li>
+                <li><a href="Trabaja_con_nos.html">Trabaja con nosotros</a></li>
+                
+            </ul>
+            <div class="logos">
+                <a href="https://www.facebook.com"><img class="imagenface" src="fotos/facelogo.png"></a>
+                <a href="https://www.linkedin.com/company/transportescarosio/"><img class="imagenlinkedin"
+                        src="fotos/LinkedInLogo.png"></a>
+
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+
+        <div class="video_cuerpo">
+            <video autoplay muted loop>
+                <source src="fotos/5853149-uhd_4096_2160_30fps.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+
+
+        <section id="servicios">
+            <div class="servicio">
+                <h2>Servicios</h2>
+                <div class="Carrusel-list">
+                    <button class="carrusel-arrow carrusel-prev" id="button-prev">
+                        
+                    </button>
+                    <div class="carrusel-track" id="track">
+                        
+                        <div class="carrusel-item"><img src="fotos/carrusel .jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/carrusel 1.jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/carrusel 2.jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/carrusel 3.jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/carrusel 4.jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/pexels-micah-boerma-327482-1008738.jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/pexels-oficialwallace-27000194.jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/pexels-entero-16100083.jpg" alt="imagen"></div>
+                        <div class="carrusel-item"><img src="fotos/pexels-bryanhave-16518093.jpg" alt="imagen"></div>
+
+                    </div>
+                    <button class="carrusel-arrow carrusel-next" id="button-next">❯</button>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="nuestra_empresa">
+            <h2 class="titulo_ns">Sobre nosotros</h2>
+            <p class="subtitulo_ns">Breve reseña historica de transportes carosio</p>
+            <div class="SN">
+                <div class="imagenes">
+                    <div class="imagen_1 image-hover">
+                        <img src="Fotos/Foto1_sobre_nos.jpg" alt="Foto histórica de la empresa">
+                        <div class="overlay">
+                            <div class="text">Año 1960 - Inicio de la empresa</div>
+                        </div>
+                    </div>
+                    <div class="imagen_2 image-hover">
+                        <img src="Fotos/Foto3_sobre_nos.jpg" alt="Foto de los actuales líderes de la empresa">
+                        <div class="overlay">
+                            <div class="text">Año 2023 - Actual liderazgo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="texto">
+                    <p>
+                        La visión de Don Juan Carosio comenzó en 1960 con un solo camión Mercedes Benz y un sueño: canalizar las riquezas de Argentina a través del puerto de Buenos Aires. Así nació nuestra empresa, brindando servicios de transporte a Murchison Estibajes y Cargas. Desde entonces, hemos crecido junto a nuestros clientes, expandiendo nuestras operaciones a empresas como Terminal Zárate S.A. y Murchison Defiba UTE.
+                    </p>
+                    <p>
+                        A lo largo de más de medio siglo, enfrentamos desafíos como la crisis de 2001, que superamos con esfuerzo y dedicación. Hoy, la tercera generación, liderada por Fernando y Alejandro Carosio, sigue impulsando la empresa con los mismos valores de trabajo, honestidad y tenacidad que nos han caracterizado siempre.
+                    </p>
+                    <p>
+                        El legado de Don Juan sigue vivo, y estamos comprometidos a seguir creciendo y ofreciendo un servicio de excelencia. Como diría un locutor, “esto recién comienza”.
+                    </p>
+                </div>
+            </div>
+    
+        
+        
+            
+            <div class="timeline">
+                <div class="timeline-item" onclick="showDetails('1960')">
+                    <span class="year">1960</span>
+                </div>
+                <div class="timeline-item" onclick="showDetails('1980')">
+                    <span class="year">1980</span>
+                </div>
+                <div class="timeline-item" onclick="showDetails('2001')">
+                    <span class="year">2001</span>
+                </div>
+                <div class="timeline-item" onclick="showDetails('2023')">
+                    <span class="year">2023</span>
+                </div>
+            </div>
+        
+            <div id="timeline-details">
+             
+            </div>
+        </section>
+        
+        
+</body>
+
+</main>
+
+<footer>
+    <div class="footer">
+        <p>&copy; 2024 Transporte carosio. Todos los derechos reservados.</p>
+        <a href="#top"><img src="fotos/2934.png"></a>
+    </div>
+
+    
+
+    
+
+</footer>
+
+</html>

@@ -1,0 +1,177 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-image: url(fotos/contacto.jpg);
+    background-position: center;
+    object-fit: cover
+    
+}
+
+.items{
+    
+    display: flex;      
+     justify-content: center;
+     align-items: center;
+    list-style-type: none;
+    text-decoration-line: none;
+    margin-top: 46px;
+    background-color: #3aa84d;
+    font-family: sans-serif;
+    padding: 2px;
+    padding-bottom: 0px;
+    color: white;
+    
+    
+}
+
+
+.items ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 300px;
+
+}
+
+
+.items li{
+margin: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+background-color: gb(255, 255, 255);  
+margin-bottom: 0px;
+
+}
+.items li:hover {
+    color:rgb(211, 17, 17); 
+}
+
+
+
+
+.imagenface{
+    width: 40px;
+    height: 40px;
+
+    
+    
+}
+
+
+
+
+
+.imagenlinkedin {
+    width: 40px;
+    height: 40px;
+
+}
+
+.imagenlinkedin:hover{
+    color:  rgb(223, 223, 223);
+}
+
+.logos {
+    display: flex;
+    right: 0px;
+    margin-left: 200px;
+    
+
+}
+
+.logos img {
+    margin: 10px;
+    right: 0;
+}
+
+
+.items a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.items a:hover{
+    color:black
+}
+
+
+
+
+.rectangulo {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    /* backdrop-filter: blur(10px); */
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(92, 90, 90, 0.596);
+    color: white;
+
+}
+
+.rectangulo p {
+    margin-top: 30px;
+    color: white;
+    align-items: center;
+}
+
+
+.volver{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    margin: 8px;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.1s ease-in;
+
+    
+}
+
+.volver:active{
+    transform: translate(5px,5px);
+}
+
+.volver a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 70px;
+    margin-top: 10px;
+    height: 70px;
+    border-radius: 40%;
+    z-index: 1000;
+  }
+  
+  .whatsapp-icon img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+  }
+  

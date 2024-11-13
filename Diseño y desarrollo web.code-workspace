@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Diseño y desarrollo web"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Transporte-Carosio-main"
+	}
+}

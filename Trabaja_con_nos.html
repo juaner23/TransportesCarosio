@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabaja con Nosotros</title>
+    <link rel="stylesheet" href="tbconnos.css">
+</head>
+<body>
+    <header>
+        <div class="volver_inicio">
+            <a href="transportecarosio.html">Volver al Inicio</a>
+        </div>
+    </header>
+
+    <div class="general">
+        <h2>TRABAJA CON NOSOTROS</h2>
+        <p>Para poder enviarnos su Curriculum, por favor complete todos los campos, para que podamos brindarle una mejor atención. Nos pondremos en contacto a la brevedad.</p>
+           
+        <form id="contact-form" action="" method="post">
+            <div class="Datos">
+                <label for="nombre">Apellido y Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <span class="error-message" id="nombre-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="fecha-nacimiento">Fecha de Nacimiento</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+                <span class="error-message" id="fecha-nacimiento-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <span class="error-message" id="telefono-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="dni">DNI</label>
+                <input type="text" id="dni" name="dni" required>
+                <span class="error-message" id="dni-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="residencia">Ciudad de residencia</label>
+                <input type="text" id="residencia" name="residencia" required>
+                <span class="error-message" id="residencia-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" required>
+                <span class="error-message" id="edad-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="nivel-educativo">Nivel Educativo</label>
+                <select id="nivel-educativo" name="nivel-educativo">
+                    <option value="primario-incompleto">Primario Incompleto</option>
+                    <option value="primario-completo">Primario Completo</option>
+                    <option value="secundario-incompleto">Secundario Incompleto</option>
+                    <option value="secundario-completo">Secundario Completo</option>
+                    <option value="terciario-incompleto">Terciario Incompleto</option>
+                    <option value="terciario-completo">Terciario Completo</option>
+                    <option value="universitario-incompleto">Universitario Incompleto</option>
+                    <option value="universitario-completo">Universitario Completo</option>
+                </select>
+                <span class="error-message" id="nivel-educativo-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label>Área/s para la/s que se postula</label><br>
+                <label><input type="checkbox" name="area[]" value="administracion"> Administración</label><br>
+                <label><input type="checkbox" name="area[]" value="deposito"> Depósito</label><br>
+                <label><input type="checkbox" name="area[]" value="operario"> Operario</label><br>
+                <label><input type="checkbox" name="area[]" value="auto-elevadorista"> Autoelevadorista</label><br>
+                <label><input type="checkbox" name="area[]" value="chofer-reparto"> Chofer de reparto</label><br>
+                <label><input type="checkbox" name="area[]" value="chofer-larga-distancia"> Chofer de larga distancia</label><br>
+                <label><input type="checkbox" name="area[]" value="taller"> Taller</label>
+                <span class="error-message" id="area-error"></span>
+            </div>
+
+            <div class="Datos">
+                <label for="comentarios">Comentarios / Datos extras</label>
+                <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                <span class="error-message" id="comentarios-error"></span>
+            </div>
+
+            <div class="Datos">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            window.location.href = 'agradecimiento.html'; 
+        });
+    </script>
+</body>
+</html>
